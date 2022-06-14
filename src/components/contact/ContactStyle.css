@@ -1,0 +1,88 @@
+.contact-container {
+  height: 50vh;
+  width: 100%;
+  background: url("../../images/footer.jpg") no-repeat center center/cover;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  
+}
+
+.about h1 {
+  color: rgb(252, 227, 2);
+  font-size: 3rem;
+  margin: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  
+
+}
+.about p {
+  color: gray;
+  padding: 3px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.shop h1 {
+  color: rgb(252, 227, 2);
+  font-size: 3rem;
+  margin: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.shop p {
+  color: gray;
+  padding: 3px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.media h1{
+    color: rgb(252, 227, 2);
+  font-size: 3rem;
+  margin: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.m-icons{
+    font-size: 3rem;
+    color: GRAY;
+    cursor: pointer;
+}
+.m-icons:hover{
+    color: blueviolet;
+}
+
+.love-msg{
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 1rem;
+}
+
+.heart-icon{
+    margin-top: 2rem;
+    text-align: center;
+    color: reD;
+}
+
+
+
+
+
+@media screen and (max-width: 870px) {
+  .contact-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 570px) {
+  .contact-container {
+    grid-template-columns: repeat(1, 1fr);
+    height: 75vh;
+    
+  }
+  .about{
+    margin-top: 5rem;
+  }
+  .footer{
+    margin: 1rem;
+  }
+
+}

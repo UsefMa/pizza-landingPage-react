@@ -1,0 +1,132 @@
+.product-container{
+    height: 135vh;
+    width: 100%;
+     background: linear-gradient(rgba(0,0,0,0.6), gray ), url('../../images/raw1.jpg'); 
+     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.intr-text{
+    padding-top: 5rem;
+    text-align: center;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 63px;
+    
+
+}
+.intr-paragraph{
+    padding-top: 2rem;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    font-size: 17px;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.products-img{
+   
+    margin-top: 3rem;
+    margin-left: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+@media screen and (max-width:920px) {
+    .products-img{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 5rem;
+
+
+    }
+    .product-container{
+        height: 190vh;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .products-img{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 7rem;
+
+    }
+    .product-container{
+        height: 350vh;
+    }
+    .prd-image{
+        
+        height: 10rem;
+    }
+}
+
+
+
+
+.prd-image{
+   
+    width: 18rem;
+    height: 25rem;
+    padding: 1rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: rgba(0,0,0,15px);
+    transition: 1s;
+    cursor: pointer;
+}
+.prd-image:hover{
+    transform: translateY(10px);
+    
+}
+
+
+
+
+
+
+
+
+
+
+  /*  
+  linear-gradient(rgba(0,0,0,0.6), gray ),   
+    @media screen and (max-width:1200px) {
+        .products-img{
+       
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }   
+    }
+    
+    @media screen and (max-width:800px) {
+        .products-img{
+       
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2px;
+        }   
+    }
+    
+    @media screen and (max-width:600px) {
+        .products-img{
+       
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1px;
+        }   
+    }
+    
+    
+    @media screen and (max-width:500px) {
+        .products-img{
+       
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1px;
+        }   
+    }
+    */
