@@ -1,4 +1,4 @@
-This Project is a landing page (pizza), made with react js  her's The Demo #
+# This Project is a landing page (pizza), made with react js  here's The Demo #
 
 https://pizza-landing-page-react.netlify.app/
 
